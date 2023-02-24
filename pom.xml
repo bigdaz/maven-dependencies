@@ -5,6 +5,7 @@
     <artifactId>maven-dependencies</artifactId>
     <packaging>jar</packaging>
     <version>1.0</version>
+    <url>https://github.com/bigdaz/maven-dependencies</url>
 
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
