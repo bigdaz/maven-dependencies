@@ -32,7 +32,9 @@
     <groupId>com.github.docker-java</groupId>
     <artifactId>docker-java-core</artifactId>
     <version>3.3.0</version>
-</dependency>   </dependencies>
+         <scope>test</scope>
+</dependency>   
+         </dependencies>
 
     <build>
         <plugins>
