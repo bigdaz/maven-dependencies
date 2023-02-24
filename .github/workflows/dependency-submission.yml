@@ -1,0 +1,11 @@
+name: Dependency Submission
+
+on:
+  push:
+
+jobs:
+  dependencies:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Submit Dependency Snapshot
+        uses: advanced-security/maven-dependency-submission-action@v3
